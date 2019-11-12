@@ -1,0 +1,389 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    padding-top: 40px;
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+.nav a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.3s;
+    padding-bottom: 5px;
+
+}
+
+.nav a:hover,
+a:visited {
+    text-decoration: none;
+    color: aliceblue;
+    border-bottom: 2px solid red;
+}
+
+#main {
+    background-color: aqua;
+    background-image: url(img/1.jpg);
+    height: 600px;
+    background-size: cover;
+    display: block;
+
+
+}
+
+
+#btn_main {
+    margin: 300px 590px;
+    width: 140px;
+    background-color: #ff1a2c;
+    color: white;
+    font-family: 'Open Sans', ' sans-serif';
+    text-transform: uppercase;
+    font-size: 15px;
+
+
+}
+
+
+.head h1 {
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 35px;
+}
+
+.head p {
+    margin: 0px;
+    padding: 0;
+    color: #ff293a;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+
+.opys {
+    padding: 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+#btn_read {
+    margin-top: 31px;
+
+    width: 140px;
+    background-color: #ff1a2c;
+    color: white;
+    font-family: 'Open Sans', ' sans-serif';
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.picture {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Cooking_clas {
+    height: 700px;
+    background-color: #22191a;
+
+}
+
+.cook_headr {
+    color: white;
+    text-align: center;
+    padding: 50px 150px 20px 150px;
+
+}
+
+.cook_headr h1 {
+    margin: 0px;
+    padding: 0px;
+    color: #ff293a;
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+}
+
+.cook_headr h2 {
+    margin: 0px;
+    padding-top: 7px;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 45px;
+}
+
+
+#pers_training {
+    height: 700px;
+    padding-top: 80px;
+
+}
+
+.ps_picture {
+
+
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.ps_text h1 {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: #ff293a;
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+}
+
+.ps_text p {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0px;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 45px;
+}
+
+.text_ps {
+
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.call_us {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 37px;
+    color: black
+}
+
+
+.wine_tasting {
+    height: 1175px;
+    padding-top: 70px;
+    background-color: #22191a;
+}
+
+.wt_header h1 {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: #ff293a;
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+
+}
+
+.wt_header h2 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    padding: 0px;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 44px;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    margin-top: 10px;
+
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 17.5px;
+    color: white;
+
+}
+
+.card {
+    text-align: center;
+    width: 85%;
+}
+
+.img {
+    position: relative;
+    overflow: hidden;
+}
+
+.hp_clients {
+    background-image: url(img/Layer%2020.png);
+    height: 505px;
+    background-size: contain;
+
+}
+
+
+.footer {
+    height: 160px;
+    background-color: black;
+
+}
+
+.lest {
+    text-align: center;
+    color: white;
+    padding: 5px;
+
+}
+
+
+.btn_load_more {
+    text-align: center;
+}
+
+.card_hover {
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-around;
+    opacity: 0;
+
+}
+
+.card_hover:hover {
+    opacity: 1;
+    transition: 0.3s;
+
+}
+
+#btn_taste {
+    margin-top: 160px;
+    height: 40px;
+    width: 130px;
+    background-color: #ff1a2c;
+    color: white;
+    font-family: 'Open Sans', ' sans-serif';
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+
+
+
+
+
+#vidhuky h1 {
+    margin-left: 20%;
+
+    text-align: center;
+    margin-top: 30px;
+    padding: 0px;
+    color: #ff293a;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+
+}
+
+#vidhuky h2 {
+    margin-left: 20%;
+
+    text-align: center;
+    margin-top: 2px;
+    padding: 0px;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 44px;
+    color: white;
+}
+
+.f_a a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.3s;
+    padding-bottom: 5px;
+    font-size: 22px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.f_a {
+    margin-top: 55px;
+    text-align: right;
+    text-decoration: none;
+
+
+
+}
+
+.f_a a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid red;
+    color: azure;
+
+}
+
+.connect {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans', ' sans-serif';
+    color: aliceblue;
+    font-size: 16px;
+    margin-top: -15px;
+
+
+}
+
+.ss {
+    padding-top: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center
+}
+
+.ss a {
+    height: 40px;
+    width: 40px;
+
+    color: red;
+
+    text-decoration: none;
+}
+
+
+
+
+#myCarousel {
+    margin-top: 30px;
+    width: 90%;
+    height: 300px;
+    margin-left: 10%;
+}
+.text {
+    color:white;
+    font-size: 16px;
+    padding-top:30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family:  'Open Sans', ' sans-serif';
+    
+}
+.author{
+    color:white;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+ {margin-top: 170px;}
+
+.left carousel-control {background-image:linear-gradientlinear-gradient();}
+.right carousel-control {background-image:linear-gradientlinear-gradient();}
+
