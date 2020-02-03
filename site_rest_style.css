@@ -213,7 +213,7 @@ a:visited {
     width: 85%;
 }
 
-.img {
+.img {border-radius: 4px;
     position: relative;
     overflow: hidden;
 }
@@ -383,7 +383,4 @@ a:visited {
     margin-top: 10px;
 }
  {margin-top: 170px;}
-
-.left carousel-control {background-image:linear-gradientlinear-gradient();}
-.right carousel-control {background-image:linear-gradientlinear-gradient();}
 
